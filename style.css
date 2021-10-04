@@ -1,0 +1,101 @@
+
+body{
+    background-image: url("pexels-scott-webb-3255761.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin:0;
+    --color-one:rgb(10,10,95);
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 15%;
+    height:100%;
+    overflow: auto;
+    position:fixed;
+    background-color: #eee;
+}
+
+.links a{
+    display: block;
+    padding: 5px 0px 5px 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.links a.active{
+    color:#fff;
+    background-color:#999;
+}
+
+li a:hover:not(.active){
+    color:white;
+    background-color:#777;
+}
+
+#all{
+    margin-left: 15%;
+    height: 100%;
+    padding: 5px 15px;
+}
+
+a.days{
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--color-one);
+    color: white;
+    width: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: #000;
+}
+a.days:hover{
+    background-color: blue;
+    width:130px;
+    line-height:130px;
+}
+
+.header{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-transform: capitalize;
+}
+
+.headerDays{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.quests{
+    text-align: justify;
+    padding: 50px 50px;
+    border-style: solid;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, blue, aqua);
+    color:#000;
+    font-variant: normal;
+    text-shadow: 5px 5px 20px #ddd;
+    letter-spacing: 1.5px;
+    text-indent: 50px;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.linkl a{
+    text-align:left;
+    float:left;
+}
+
+.linkr a{
+    text-align:right;
+    float:right;
+}
